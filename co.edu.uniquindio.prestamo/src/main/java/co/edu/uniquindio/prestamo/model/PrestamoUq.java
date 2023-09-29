@@ -96,6 +96,14 @@ public class PrestamoUq {
             }
         }
     }
+
+    public void actualizarCliente(String cedula);{
+        int tamañoLista = getListaClientes().size();
+        for(int i=0; i < tamanoLista; i++){
+            Cliente cliente = getListaClientes().get(i);
+
+        }
+    }
     @Override
     public String toString() {
         return "PrestamoUq{" +
